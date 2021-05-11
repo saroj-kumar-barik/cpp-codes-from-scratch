@@ -41,6 +41,16 @@ int main(){
     cout<<"The value of this logical or operator ((a==b) || (a<b)) is:"<<((a==b) || (a<b))<<endl; 
     cout<<"The value of this logical not operator (!(a==b)) is:"<<(!(a==b))<<endl; 
 
+    // Bitwise Operator in c++
+    
+    cout<<endl;
+    cout<<"The value of this bitwise and operator ((a==b) & (a<b)) is:"<<((a==b) & (a<b))<<endl; 
+    cout<<"The value of this bitwise or operator ((a==b) | (a<b)) is:"<<((a==b) | (a<b))<<endl; 
+    cout<<"The value of this bitwise XOR operator ((a==b) ^ (a<b)) is:"<<((a==b) ^ (a<b))<<endl; // if bits are different then 1 otherwise 0
+    cout<<"The value of this bitwise not operator (~(a==b)) is:"<<(~(a==b))<<endl; 
+    cout<<"The value of this bitwise right shift operator (>>(a==b)) is:"<<(a>>b)<<endl; 
+    cout<<"The value of this bitwise left shift operator (<<(a==b)) is:"<<(a<<b)<<endl; 
+
 
     return 0;
 }
