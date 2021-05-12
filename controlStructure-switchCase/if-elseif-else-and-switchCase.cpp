@@ -22,6 +22,18 @@ int main(){
     //     cout<<"You can come to the party"<<endl;
     // }
 
+    if(true);
+
+    cout<<"check";
+
+    if(true){}
+
+    cout<<"check 1";
+
+    if(true)
+
+    cout<<"check 2";
+
     // 2. Selection control structure: Switch Case statements
     switch (age)
     {
