@@ -18,9 +18,11 @@ float d=34.4F;
     
     // reference variable
     float x = 455;
-    float & y = x;
+    float &y = x;
     cout<<x<<endl;
     cout<<y<<endl;
+    cout<<&x<<endl;
+    cout<<&y<<endl;
 
     // return 0;
 }
