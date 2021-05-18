@@ -3,22 +3,24 @@ using namespace std;
 
 
 // memory is created for all the variables for an object
-// struct employee
+struct employee
+{
+    /* data */
+    private:
+    int eId; //4
+    char favChar; //1
+    public:
+    float salary; //4
+};
+// Another type of defination of structure,
+// where for object crartion we only write - ep(e.g) objectName;
+// typedef struct employee
 // {
 //     /* data */
 //     int eId; //4
 //     char favChar; //1
 //     float salary; //4
-// };
-// Another type of defination of structure,
-// where for object crartion we only write - ep(e.g) objectName;
-typedef struct employee
-{
-    /* data */
-    int eId; //4
-    char favChar; //1
-    float salary; //4
-} ep;
+// } ep;
 
 // Only one variable can be assigned value at a time for an object other two will give garbage
 // the last updated value will have correct result others have garbage
@@ -48,11 +50,13 @@ int main(){
     m1.pounds = 34;
     cout<<m1.car;
     cout<<m1.rice;
-    cout<<m1.pounds;
+    cout<<m1.pounds<<endl;
 
     // ep harry;
-    // struct employee shubham;
-    // struct employee rohanDas;
+    struct employee shubham;
+    struct employee rohanDas;
+    shubham.salary = 45;
+    cout<<shubham.salary;
     // harry.eId = 1;
     // harry.favChar = 'c';
     // harry.salary = 120000000;
