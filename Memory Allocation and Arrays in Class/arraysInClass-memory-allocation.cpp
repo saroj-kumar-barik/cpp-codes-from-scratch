@@ -15,24 +15,10 @@ public:
 
 
 class exam{
-
-   static int c;
-    public:
-     
+    public: 
     int a;
     int b;
-    
-    void test(){
-        cout<<&c<<endl;
-        cout<<&a<<"  "<<&b<<endl;
-
-    };
-
-    void check();
 };
-
-int exam::c;
-
 
 void Shop ::setPrice(void)
 {
@@ -62,14 +48,5 @@ int main()
     dukaan.displayPrice();
 
     cout<<sizeof(exam)<<endl;
-
-    exam obj1;
-    exam obj2;
-
-    obj1.test();
-    obj2.test();
-
-
-
     return 0;
 }
