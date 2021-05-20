@@ -13,6 +13,12 @@ public:
     void displayPrice(void);
 };
 
+
+class exam{
+    int a;
+    int b;
+};
+
 void Shop ::setPrice(void)
 {
     cout << "Enter Id of your item no " << counter + 1 << endl;
@@ -38,5 +44,7 @@ int main()
     dukaan.setPrice();
     dukaan.setPrice();
     dukaan.displayPrice();
+
+    cout<<sizeof(exam);
     return 0;
 }
