@@ -15,9 +15,24 @@ public:
 
 
 class exam{
+
+   static int c;
+    public:
+     
     int a;
     int b;
+    
+    void test(){
+        cout<<&c<<endl;
+        cout<<&a<<"  "<<&b<<endl;
+
+    };
+
+    void check();
 };
+
+int exam::c;
+
 
 void Shop ::setPrice(void)
 {
@@ -36,6 +51,7 @@ void Shop ::displayPrice(void)
     }
 }
 
+
 int main()
 {
     Shop dukaan;
@@ -45,6 +61,15 @@ int main()
     dukaan.setPrice();
     dukaan.displayPrice();
 
-    cout<<sizeof(exam);
+    cout<<sizeof(exam)<<endl;
+
+    exam obj1;
+    exam obj2;
+
+    obj1.test();
+    obj2.test();
+
+
+
     return 0;
 }
