@@ -12,9 +12,11 @@ class complex{
             b = v2;
         }
 
+        // int setDataBySum(complex o1, complex o2){
         void setDataBySum(complex o1, complex o2){
             a = o1.a + o2.a;
             b = o1.b + o2.b;
+            // return a+b;
         }
 
         void printNumber(){
@@ -30,7 +32,8 @@ int main(){
     c2.setData(3, 4);
     c2.printNumber();
 
-    c3.setDataBySum(c1, c2);
+    int res = c3.setDataBySum(c1, c2);
+    // cout<<res<<endl;
     c3.printNumber();
     return 0;
 }
