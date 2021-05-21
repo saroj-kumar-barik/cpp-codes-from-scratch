@@ -32,7 +32,7 @@ int main(){
     c2.setData(3, 4);
     c2.printNumber();
 
-    int res = c3.setDataBySum(c1, c2);
+    c3.setDataBySum(c1, c2);
     // cout<<res<<endl;
     c3.printNumber();
     return 0;
