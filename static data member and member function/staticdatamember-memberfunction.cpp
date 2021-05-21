@@ -9,6 +9,10 @@ class Employee
     static void dis(); 
 
 public:
+    static void printing(){
+        cout<<"printing line inside static method...";
+    }
+
     void setData(void)
     {
         cout << "Enter the id" << endl;
@@ -52,7 +56,9 @@ int main()
     // lovish.setData();
     // lovish.getData();
     // Employee::getCount();
-    // Employee::dis();
+    // Employee::dis(); // this will throw an error
+    Employee::printing();
+
 
     return 0;
 }
