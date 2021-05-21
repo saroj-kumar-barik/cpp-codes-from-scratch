@@ -14,7 +14,7 @@ public:
         cout << "Enter the id" << endl;
         cin >> id;
         count++;
-        dis();
+        dis(); // way to access private member function
 
     }
     void getData(void)
