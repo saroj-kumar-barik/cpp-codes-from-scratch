@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-// This forward declartaion is req as we have used the parameter inside the calculator class before definig 
+// This forward declartaion is req as we have used the parameter inside the calculator class before definig the 
+// Class.(Not Sure will verify) 
 class ComplexNumberCalculation;
 
 class Calculator{
