@@ -38,10 +38,8 @@ int main(){
     o2.display();
     o4.display();
 
-    o4 = o2;
+    o4 = o2; // No copy constructor call - normal assignment
     o4.display();
-
-
 
 }
 
