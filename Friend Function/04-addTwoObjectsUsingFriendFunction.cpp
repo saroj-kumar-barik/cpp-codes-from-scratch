@@ -3,7 +3,7 @@ using namespace std;
 
 class XYZ{
     int a,b;
-    void friend summetion(XYZ P, XYZ Q){
+    void friend summation(XYZ P, XYZ Q){
         XYZ R;
         R.a = P.a + Q.a;
         R.b = P.b + Q.b;
@@ -21,7 +21,7 @@ int main(){
     P.setdata(11,22);
     Q.setdata(11,33);
 
-    summetion(P,Q);
+    summation(P,Q);
     
 
 
