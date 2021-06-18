@@ -15,7 +15,7 @@ class ABC{
 
         void operator--(){
             a -=2; // 9
-            b = b--;
+            b = b--; // here 
             --b = ++b; // -23
         }
         // to apply unary ++ as postfix, we must need an parameter of type int. 
@@ -36,5 +36,6 @@ int main(){
     X.display();
 
     Y--;
+    Y.display();
     Y.display();
 }
