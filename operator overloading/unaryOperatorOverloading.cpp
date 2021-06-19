@@ -11,7 +11,8 @@ class ABC{
         void display(){
             cout<<"A= "<<a<<" B = "<<b<<endl;
         }
-
+        // in unary operator overloading : one argument if it is a friend function
+        // no argument if it a normal non static mf
         void operator+(){
             a = -a;
             b = -b;
